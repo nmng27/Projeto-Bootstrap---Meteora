@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="../Bootstrap/meteora-assets-main/assets/favicon.png" type="image/x-icon">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1 class="m-0">
+                <img src="../Bootstrap/meteora-assets-main/assets/logo-meteora.png" alt="Logo do meteora" class="d-block">
+            </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Lojas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promoção</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 rounded-0" type="search" placeholder="Digite um produto" aria-label="Search">
+              <button class="btn btn-outline-light rounded-0" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- // Carrosel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="meteora-assets-main/assets/Tablet/banner1-tablet.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="meteora-assets-main/assets/Tablet/banner2-tablet.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption position-absolute posicao">
+                <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                <p class="fs-4">Estilo e qualidade para durar.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="meteora-assets-main/assets/Tablet/banner3-tablet.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption position-absolute posicao">
+                <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+                <p class="fs-4">Estilo e qualidade para durar.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h1 class="text-center my-3">Busque por Categoria</h1>
+      <!-- Cards-->
+      <div class="container row g-4 mx-auto my-3">
+        <!-- Card1 -->
+        <div class="container col col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/image.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Camisetas
+                </p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="container col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/bolsa.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Bolsas
+                </p>
+                </div>
+            </div>
+        </div>
+            <!-- Card 3 -->
+            
+        <div class="container col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/Categoria casacos.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Casacos
+                </p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="container col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/calcas.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Calças
+                </p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="container col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/tenis.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Tênis
+                </p>
+                </div>
+            </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="container col-md-4 col-xxl-2">
+            <div class="card">
+                <img src="./meteora-assets-main/assets/Imagens Categorias/oculos.png" alt="" srcset="">
+                <div class="card-header bg-black text-bg-dark">
+                <p class="text-center card-text">
+                    Óculos
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 class="container  text-center my-3">O que está bombando</h1>
+    
+      <!--  6 cards com botoes  -->
+      <!-- 1º container = 3 colunas -->
+      <!-- Card 1 -->
+      <div class="container row mx-auto g-4 my-3">
+        <!-- Card 1 -->
+        <div class="card col">
+            <img src="./meteora-assets-main/assets/Imagens Cards/Card camiseta.png" alt="" srcset="">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Conforto</h5>
+              <p class="card-text">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+              <p><strong>$70,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card col" >
+            <img src="./meteora-assets-main/assets/Imagens Cards/Card calça.png" alt="" srcset="">
+            <div class="card-body">
+              <h5 class="card-title">Calça Alfaiataria</h5>
+              <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
+              <p><strong>R$ 180,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+
+          <!-- Card3  -->
+          <div class="card col">
+            <img src="./meteora-assets-main/assets/Imagens Cards/Card tenis.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Tênis Chunky</h5>
+              <p class="card-text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+              <p><strong>R$ 250,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="container row mx-auto g-4 my-3">
+        <!-- card 4 -->
+        <div class="card col">
+            <img src="./meteora-assets-main/assets/Imagens Cards/Card jaqueta jeans.png" alt="" srcset="">
+            <div class="card-body">
+              <h5 class="card-title">Jaqueta Jeans</h5>
+              <p class="card-text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+              <p><strong>R$ 150,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="card col" >
+            <img src="./meteora-assets-main/assets/Imagens Cards/image.png" alt="" srcset="">
+            <div class="card-body">
+              <h5 class="card-title">Óculos Redondo</h5>
+              <p class="card-text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+              <p><strong>R$ 120,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="card col">
+            <img src="./meteora-assets-main/assets/Imagens Cards/bolsa.png" alt="" srcset="">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa coringa</h5>
+              <p class="card-text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+              <p><strong>R$ 120,00</strong></p>
+              <a href="#" class="btn botao-saiba-mais">Saiba Mais</a>
+            </div>
+          </div>
+      </div>
+      
+      <section class="text-center">
+        <h2>Conheça as nossas facilidades</h2>
+        <div class="row bg-dark">
+            <div class="col">
+                <div><i class="bi bi-x-diamond fs-1 text-warning"></i></div>
+                <div class="text-warning">Pague pelo PIX</div>
+                <div class="texto-menor text-light">Ganhe 5% OFF em pagamentos via PIX</div>
+            </div>
+            <div class="col">
+                <div><i class="bi bi-arrow-repeat fs-1 text-warning"></i></div>
+                <div class="text-warning">Troca GRÁTIS</div>
+                <div class="texto-menor text-light">Fique livre para trocar em até 30 dias</div>
+            </div>
+            <div class="col">
+                <div><i class="bi bi-flower1 fs-1 text-warning"></i></div>
+                <div class="text-warning">Sustentabilidade</div>
+                <div class="texto-menor text-light">Moda sustentável que respeita o meio ambiente</div>
+            </div>
+        </div>
+      </section>
+    
+      <div>
+        <form class="border border-secondary m-3 p-3">
+            <h5 class="text-center">Quer receber mais informações sobre os nossos produtos</h5>
+            <div class="input-group my-3">
+                <input type="email" placeholder="Digite um email" aria-label="Digite seu email" aria-describedby="button-addon2" class="form-control border-secondary rounded-0">
+                <button type="button" id="button-addon2">Enviar</button>
+            </div>
+        </form>
+      </div>
+
+
+      <footer class="text-center bg-dark text-light">
+        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

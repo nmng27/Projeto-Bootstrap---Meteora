@@ -1,0 +1,17 @@
+.texto-menor{
+    font-size: 10px;
+}
+.botao-saiba-mais{
+    background-color: blueviolet;
+    color: white;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
